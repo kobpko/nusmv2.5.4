@@ -1,0 +1,3 @@
+cinitDummyMac.lo: src/cinit/cinitDummyMac.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

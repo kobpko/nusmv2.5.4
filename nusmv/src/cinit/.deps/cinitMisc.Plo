@@ -1,0 +1,518 @@
+cinitMisc.lo: cinitMisc.c /usr/include/stdc-predef.h cinitInt.h \
+ ../../nusmv-config.h /usr/include/stdlib.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/sys/param.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
+ /usr/include/x86_64-linux-gnu/asm/param.h \
+ /usr/include/asm-generic/param.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h ../cinit/cinit.h \
+ ../../../cudd-2.4.1.1/include/util.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/ctype.h \
+ /usr/include/xlocale.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/assert.h \
+ ../utils/utils.h ../utils/defs.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h ../utils/list.h \
+ ../opt/OptsHandler.h ../node/node.h ../dd/dd.h ../utils/array.h \
+ ../utils/avl.h ../../../cudd-2.4.1.1/include/cudd.h \
+ ../../../cudd-2.4.1.1/include/mtr.h ../parser/symbols.h \
+ ../parser/parser.h ../rbc/rbc.h /usr/include/malloc.h ../dag/dag.h \
+ ../../../cudd-2.4.1.1/include/st.h ../utils/Slist.h ../set/set.h \
+ ../utils/NodeList.h ../utils/utils.h ../compile/compile.h \
+ ../compile/FlatHierarchy.h ../compile/symb_table/SymbTable.h \
+ ../compile/symb_table/SymbLayer.h ../compile/symb_table/SymbType.h \
+ ../compile/symb_table/NFunction.h ../compile/symb_table/SymbType.h \
+ ../compile/symb_table/SymbCache.h ../compile/type_checking/TypeChecker.h \
+ ../node/MasterNodeWalker.h ../node/NodeWalker.h ../utils/object.h \
+ /usr/include/memory.h ../compile/symb_table/SymbLayer.h ../utils/assoc.h \
+ ../compile/symb_table/ResolveSymbol.h ../compile/PredicateNormaliser.h \
+ ../compile/PredicateExtractor.h ../compile/FlatHierarchy.h \
+ ../compile/symb_table/SymbTable.h ../compile/symb_table/SymbLayer.h \
+ ../enc/bdd/BddEnc.h ../enc/bdd/bdd.h ../enc/base/BoolEncClient.h \
+ ../enc/bool/BoolEnc.h ../enc/bool/BitValues.h ../enc/base/BaseEnc.h \
+ ../enc/utils/OrdGroups.h ../fsm/sexp/Expr.h ../fsm/bdd/bdd.h \
+ ../dd/VarsHandler.h ../enc/utils/AddArray.h ../utils/WordNumber.h \
+ ../fsm/FsmBuilder.h ../fsm/sexp/SexpFsm.h ../fsm/sexp/sexp.h \
+ ../compile/PredicateNormaliser.h ../fsm/sexp/BoolSexpFsm.h \
+ ../fsm/sexp/SexpFsm.h ../fsm/bdd/BddFsm.h ../fsm/bdd/bdd.h \
+ ../fsm/bdd/FairnessList.h ../trans/bdd/BddTrans.h \
+ ../trans/generic/GenericTrans.h ../trans/trans.h \
+ ../trans/bdd/ClusterList.h ../trans/bdd/Cluster.h \
+ ../trans/bdd/ClusterOptions.h ../trans/bdd/ClusterList.h \
+ ../hrc/HrcNode.h ../be/be.h ../be/beRbcManager.h ../be/be.h ../mc/mc.h \
+ ../prop/Prop.h ../fsm/be/BeFsm.h ../enc/be/BeEnc.h ../trace/Trace.h \
+ ../opt/opt.h /usr/include/regex.h ../sat/sat.h ../sat/SatSolver.h \
+ ../sat/SatIncSolver.h ../utils/Olist.h ../enc/enc.h \
+ ../simulate/simulate.h ../ltl/ltl.h ../cmd/cmd.h ../bmc/bmc.h \
+ ../bmc/bmcCmd.h ../bmc/bmcBmc.h ../bmc/bmcDump.h ../bmc/bmcPkg.h \
+ ../bmc/bmcGen.h ../bmc/bmcTableau.h ../bmc/bmcModel.h ../bmc/bmcConv.h \
+ ../bmc/bmcCheck.h ../bmc/bmcUtils.h ../utils/ucmd.h \
+ ../trace/TraceManager.h ../utils/error.h /usr/include/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ ../trace/plugins/TracePlugin.h ../trace/TraceOpt.h \
+ ../trace/exec/PartialTraceExecutor.h ../trace/exec/BaseTraceExecutor.h \
+ ../trace/exec/CompleteTraceExecutor.h ../trace/eval/BaseEvaluator.h \
+ ../trace/TraceLabel.h ../trace/TraceOpt.h ../trace/pkg_trace.h \
+ ../trace/exec/traceExec.h ../hrc/hrc.h ../hrc/HrcNode.h \
+ ../hrc/dumpers/HrcDumper.h ../prop/propPkg.h ../prop/PropDb.h \
+ ../bmc/bmcUtils.h ../compile/compileInt.h \
+ ../compile/symb_table/symb_table_int.h
+
+/usr/include/stdc-predef.h:
+
+cinitInt.h:
+
+../../nusmv-config.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/sys/param.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/param.h:
+
+/usr/include/linux/param.h:
+
+/usr/include/x86_64-linux-gnu/asm/param.h:
+
+/usr/include/asm-generic/param.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+../cinit/cinit.h:
+
+../../../cudd-2.4.1.1/include/util.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/ctype.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/string2.h:
+
+/usr/include/x86_64-linux-gnu/bits/string3.h:
+
+/usr/include/assert.h:
+
+../utils/utils.h:
+
+../utils/defs.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h:
+
+../utils/list.h:
+
+../opt/OptsHandler.h:
+
+../node/node.h:
+
+../dd/dd.h:
+
+../utils/array.h:
+
+../utils/avl.h:
+
+../../../cudd-2.4.1.1/include/cudd.h:
+
+../../../cudd-2.4.1.1/include/mtr.h:
+
+../parser/symbols.h:
+
+../parser/parser.h:
+
+../rbc/rbc.h:
+
+/usr/include/malloc.h:
+
+../dag/dag.h:
+
+../../../cudd-2.4.1.1/include/st.h:
+
+../utils/Slist.h:
+
+../set/set.h:
+
+../utils/NodeList.h:
+
+../utils/utils.h:
+
+../compile/compile.h:
+
+../compile/FlatHierarchy.h:
+
+../compile/symb_table/SymbTable.h:
+
+../compile/symb_table/SymbLayer.h:
+
+../compile/symb_table/SymbType.h:
+
+../compile/symb_table/NFunction.h:
+
+../compile/symb_table/SymbType.h:
+
+../compile/symb_table/SymbCache.h:
+
+../compile/type_checking/TypeChecker.h:
+
+../node/MasterNodeWalker.h:
+
+../node/NodeWalker.h:
+
+../utils/object.h:
+
+/usr/include/memory.h:
+
+../compile/symb_table/SymbLayer.h:
+
+../utils/assoc.h:
+
+../compile/symb_table/ResolveSymbol.h:
+
+../compile/PredicateNormaliser.h:
+
+../compile/PredicateExtractor.h:
+
+../compile/FlatHierarchy.h:
+
+../compile/symb_table/SymbTable.h:
+
+../compile/symb_table/SymbLayer.h:
+
+../enc/bdd/BddEnc.h:
+
+../enc/bdd/bdd.h:
+
+../enc/base/BoolEncClient.h:
+
+../enc/bool/BoolEnc.h:
+
+../enc/bool/BitValues.h:
+
+../enc/base/BaseEnc.h:
+
+../enc/utils/OrdGroups.h:
+
+../fsm/sexp/Expr.h:
+
+../fsm/bdd/bdd.h:
+
+../dd/VarsHandler.h:
+
+../enc/utils/AddArray.h:
+
+../utils/WordNumber.h:
+
+../fsm/FsmBuilder.h:
+
+../fsm/sexp/SexpFsm.h:
+
+../fsm/sexp/sexp.h:
+
+../compile/PredicateNormaliser.h:
+
+../fsm/sexp/BoolSexpFsm.h:
+
+../fsm/sexp/SexpFsm.h:
+
+../fsm/bdd/BddFsm.h:
+
+../fsm/bdd/bdd.h:
+
+../fsm/bdd/FairnessList.h:
+
+../trans/bdd/BddTrans.h:
+
+../trans/generic/GenericTrans.h:
+
+../trans/trans.h:
+
+../trans/bdd/ClusterList.h:
+
+../trans/bdd/Cluster.h:
+
+../trans/bdd/ClusterOptions.h:
+
+../trans/bdd/ClusterList.h:
+
+../hrc/HrcNode.h:
+
+../be/be.h:
+
+../be/beRbcManager.h:
+
+../be/be.h:
+
+../mc/mc.h:
+
+../prop/Prop.h:
+
+../fsm/be/BeFsm.h:
+
+../enc/be/BeEnc.h:
+
+../trace/Trace.h:
+
+../opt/opt.h:
+
+/usr/include/regex.h:
+
+../sat/sat.h:
+
+../sat/SatSolver.h:
+
+../sat/SatIncSolver.h:
+
+../utils/Olist.h:
+
+../enc/enc.h:
+
+../simulate/simulate.h:
+
+../ltl/ltl.h:
+
+../cmd/cmd.h:
+
+../bmc/bmc.h:
+
+../bmc/bmcCmd.h:
+
+../bmc/bmcBmc.h:
+
+../bmc/bmcDump.h:
+
+../bmc/bmcPkg.h:
+
+../bmc/bmcGen.h:
+
+../bmc/bmcTableau.h:
+
+../bmc/bmcModel.h:
+
+../bmc/bmcConv.h:
+
+../bmc/bmcCheck.h:
+
+../bmc/bmcUtils.h:
+
+../utils/ucmd.h:
+
+../trace/TraceManager.h:
+
+../utils/error.h:
+
+/usr/include/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp2.h:
+
+../trace/plugins/TracePlugin.h:
+
+../trace/TraceOpt.h:
+
+../trace/exec/PartialTraceExecutor.h:
+
+../trace/exec/BaseTraceExecutor.h:
+
+../trace/exec/CompleteTraceExecutor.h:
+
+../trace/eval/BaseEvaluator.h:
+
+../trace/TraceLabel.h:
+
+../trace/TraceOpt.h:
+
+../trace/pkg_trace.h:
+
+../trace/exec/traceExec.h:
+
+../hrc/hrc.h:
+
+../hrc/HrcNode.h:
+
+../hrc/dumpers/HrcDumper.h:
+
+../prop/propPkg.h:
+
+../prop/PropDb.h:
+
+../bmc/bmcUtils.h:
+
+../compile/compileInt.h:
+
+../compile/symb_table/symb_table_int.h:
